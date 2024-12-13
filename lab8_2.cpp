@@ -48,9 +48,9 @@ int main(){
 	while(i < N){
 		cout << "Name of student " << i+1 << ": ";
 		cin.ignore();
-		getline(cin,name);
+		getline(cin,name[i]);
 		cout << "Score of student " << i+1 << ": ";
-		cin>>score;
+		cin>>score[i];
 		i++;
 	}
 	
